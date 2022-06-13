@@ -1,0 +1,3 @@
+## service
+项目核心代码包，本包将项目对外提供的服务能力抽象成了一个个"service"，其中service.go是启动服务的总入口，包含了抽象service接口的定义，以及启动service的函数。
+所有的service都应该在service包中定义，并且在service包中实现抽象service接口。
